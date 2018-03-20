@@ -11,6 +11,7 @@ Mine lives in my home directory:
 C:/Users/myName/.gitconfig
 
 Put the following into your .gitconfig:
+<pre>
 [alias]
 	s = status
 	a = add
@@ -30,3 +31,4 @@ Put the following into your .gitconfig:
 	ch = checkout
 	chb = checkout -b
 	r = reset
+</pre>
