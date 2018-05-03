@@ -1,7 +1,7 @@
 # GitAliases
 a list of my git aliases.
 
-Copy your git.exe and rename it as g.exe for even faster git interaction.
+For even faster git ineraction check out my project <a href="https://github.com/KyleScharnhorst/git-to-g">git-to-g</a> for using g instead of git. E.g., g s instead of git status or git s.
 
 Find your .gitconfig
 Can use:
