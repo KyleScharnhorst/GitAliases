@@ -15,19 +15,24 @@ Put the following into your .gitconfig:
 [alias]
 	s = status
 	a = add
-	ap = add --patch
-	b = branch
-	bd = branch -d
 	c = commit
-	ca = commit -a
+	ca = commit -av
 	cav = commit -av
 	cv = commit -v
-	ch = checkout
-	chb = checkout -b
+	p = push
+	pu = push -u origin
 	d = diff
 	ds = diff --staged
 	l = log
-	p = push
-	pu = push -u origin
+	b = branch
+	bd = branch -d
+	ap = add --patch
+	ch = checkout
+	chb = checkout -b
 	r = reset
+	m = merge
+	mf = merge --ff-only
+	st = stash
+	sta = stash apply
+	stl = stash list
 </pre>
