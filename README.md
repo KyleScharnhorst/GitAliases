@@ -16,7 +16,7 @@ Put the following into your .gitconfig:
 	s = status
 	a = add
 	c = commit
-	ca = commit -av
+	ca = commit -a
 	cav = commit -av
 	cv = commit -v
 	p = push
