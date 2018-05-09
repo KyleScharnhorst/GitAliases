@@ -13,25 +13,25 @@ C:/Users/myName/.gitconfig
 Put the following into your .gitconfig:
 <pre>
 [alias]
-	s = status
 	a = add
+	ap = add --patch
+	b = branch
+	bd = branch -d
+	ch = checkout
+	chb = checkout -b
 	c = commit
 	ca = commit -a
-	cav = commit -av
 	cv = commit -v
-	p = push
-	pu = push -u origin
+	cav = commit -av
 	d = diff
 	ds = diff --staged
 	l = log
-	b = branch
-	bd = branch -d
-	ap = add --patch
-	ch = checkout
-	chb = checkout -b
-	r = reset
 	m = merge
 	mf = merge --ff-only
+	p = push
+	pu = push -u origin
+	r = reset
+	s = status
 	st = stash
 	sta = stash apply
 	stl = stash list
