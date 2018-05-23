@@ -19,6 +19,7 @@ Put the following into your .gitconfig:
 	bd = branch -d
 	ch = checkout
 	chb = checkout -b
+	chp = checkout --patch
 	c = commit
 	ca = commit -a
 	cv = commit -v
