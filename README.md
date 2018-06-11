@@ -17,6 +17,7 @@ Put the following into your .gitconfig:
 	ap = add --patch
 	b = branch
 	bd = branch -d
+	bl = branch --list
 	ch = checkout
 	chb = checkout -b
 	chp = checkout --patch
@@ -32,6 +33,8 @@ Put the following into your .gitconfig:
 	p = push
 	pu = push -u origin
 	r = reset
+	rb = rebase
+	rbc = rebase --continue
 	s = status
 	st = stash
 	sta = stash apply
