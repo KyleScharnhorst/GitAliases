@@ -15,6 +15,7 @@ Put the following into your .gitconfig:
 [alias]
 	a = add
 	ap = add --patch
+	au = add --update
 	b = branch
 	bd = branch -d
 	bl = branch --list
