@@ -14,6 +14,7 @@ Put the following into your .gitconfig:
 <pre>
 [alias]
 	a = add
+	aa = add --all
 	ap = add --patch
 	au = add --update
 	b = branch
