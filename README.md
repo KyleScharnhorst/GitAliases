@@ -32,6 +32,7 @@ Put the following into your .gitconfig:
 	l = log
 	m = merge
 	mf = merge --ff-only
+	pl = pull
 	p = push
 	pu = push --set-upstream origin
 	r = reset
