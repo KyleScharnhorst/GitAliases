@@ -25,6 +25,7 @@ Put the following into your .gitconfig:
 	chp = checkout --patch
 	c = commit
 	ca = commit --all
+	cl = clone
 	cv = commit --verbose
 	cav = commit --all --verbose
 	d = diff
