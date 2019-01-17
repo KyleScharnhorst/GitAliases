@@ -34,6 +34,7 @@ Put the following into your .gitconfig:
 	m = merge
 	mf = merge --ff-only
 	pl = pull
+	plr = pull --rebase
 	p = push
 	pu = push --set-upstream origin
 	r = reset
