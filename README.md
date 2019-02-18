@@ -12,6 +12,9 @@ C:/Users/myName/.gitconfig
 
 Put the following into your .gitconfig:
 <pre>
+[diff]
+	# This works with the difftool (dt alias) and can be changed based on your needs.
+	tool = vimdiff
 [alias]
 	a = add
 	aa = add --all
@@ -30,6 +33,8 @@ Put the following into your .gitconfig:
 	cav = commit --all --verbose
 	d = diff
 	ds = diff --staged
+	dt = difftool
+	dts = difftool --staged
 	l = log
 	m = merge
 	mf = merge --ff-only
